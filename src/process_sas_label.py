@@ -20,7 +20,7 @@ if __name__ == "__main__":
                 output_file = open(out_path % table_name, "w")
             elif r2:
                 if output_file != None:
-                    output_file.write("{},{}\n".format(r2.group(1), r2.group(2)))
+                    output_file.write("{};{}\n".format(r2.group(1), r2.group(2)))
             if ";" in line and output_file !=None:
                 output_file.close()
                 output_file = None
