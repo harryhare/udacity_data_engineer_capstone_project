@@ -11,5 +11,5 @@ for detail: refer [src/main.ipynb](src/main.ipynb)
 |:---|:---|
 | `data/` |    original data|
 | `src/` |  the code |
-| `output/`| intermediate result|
-| `final_output/`|  the final fact & dimension data |
+| `intermediate/`| intermediate data|
+| `output/`|  the final fact & dimension data |

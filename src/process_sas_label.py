@@ -4,7 +4,7 @@ file_path = "../data/I94_SAS_Labels_Descriptions.SAS"
 head_pattern = re.compile(r"^\s*value\s+\$?(\w+)\s*$")
 row_pattern = re.compile(r"^\s*\'?([^=\']+?)\'?\s*=\s*\'?([^\'=]+?)\s*\'?\s*;?\s*$")
 
-out_path = "../output/%s.csv"
+out_path = "../intermediate/%s.csv"
 if __name__ == "__main__":
     with open(file_path) as f:
         output_file = None
